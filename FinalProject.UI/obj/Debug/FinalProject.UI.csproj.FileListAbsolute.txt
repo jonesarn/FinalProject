@@ -1,0 +1,7 @@
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\bin\Debug\FinalProject.UI.exe.config
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\bin\Debug\FinalProject.UI.exe
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\bin\Debug\FinalProject.UI.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\obj\Debug\FinalProject.UI.csproj.AssemblyReference.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\obj\Debug\FinalProject.UI.csproj.CoreCompileInputs.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\obj\Debug\FinalProject.UI.exe
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\FinalProject.UI\obj\Debug\FinalProject.UI.pdb
