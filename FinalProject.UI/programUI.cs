@@ -33,19 +33,46 @@ namespace FinalProject.UI
                 case "1":
                     Console.Clear();
                     Console.WriteLine("Welcome to Komodo Cafe");
-                    Console.WriteLine("Select a Project with a humber. \n"
+                    Console.WriteLine("Select a Project with a Letter. \n"
                     + "a. Add Item \n"
                     + "b.Delete Item \n"
                     + "c. Look at Items \n"
                     );
+                    
                     switch (answer)
                     {
                         case "a":
-                            CreateItem();
+                            Console.Clear();
+                            CreatedMenuItem();
+                            break;
+                        case "b":
+                            Console.Clear();
+                            DeleteMenuItem();
+                            break;
+                        case "c":
+                            Console.Clear();
+                            ViewMenuItems();
                             break;
                     }
-                
+                    break;
             }
+        }
+        void CreatedMenuItem()
+        {
+            Console.WriteLine("Let's create an item on menu.");
+            Console.Clear();
+
+        }
+        void DeleteMenuItem()
+        {
+            Console.WriteLine("Let's Delete an item off the menu.");
+            Console.Clear();
+        }
+        void ViewMenuItems()
+        {
+            Console.WriteLine("Let's view the items on menu.");
+            Console.Clear();
+            Console.WriteLine(GetItems());
         }
     }
 }

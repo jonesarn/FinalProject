@@ -41,22 +41,38 @@ namespace Challenge1.REPO
             return _NewItem;
         }
         // read one item
-        public Dictionary<int, Meal> GetItemsByMealNumber(VisableMealNumber)
+        public Dictionary<int, Meal> GetItemsByMealNumber(int VisableMealNumber)
         {
-          foreach (Meal meal in _NewItem)
+            foreach (Meal meal in _NewItem)
             {
-                if(VisableMealNumber == meal.MealNumber)
+                if (VisableMealNumber == meal.MealNumber)
                 {
                     return _NewItem;
                 }
+                else return null;
             }
         }
-    }
+
+        //update items
+
+        //Delete Items
+        public bool DeleteItem(int VisiableMealNumber)
+        {
+            Meal MealDelete = GetItemsByMealNumber(  VisiableMealNumber);
+            if ( MealDelete == null)
+            {
+                return false;
+            }
+            else
+            {
+                _NewItem.Remove( MealDelete);
+                return true;
+            }
+        }
 
 
-    //update items
 
-    //Delete Items
+
 }
 
 
