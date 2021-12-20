@@ -5,3 +5,10 @@ C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\Ch
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.csproj.CoreCompileInputs.cache
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.dll
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\bin\Debug\Challenge1.POCO.dll.config
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\bin\Debug\Challenge1.POCO.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\bin\Debug\Challenge1.POCO.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.csproj.AssemblyReference.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.csproj.CoreCompileInputs.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.POCO\obj\Debug\Challenge1.POCO.pdb

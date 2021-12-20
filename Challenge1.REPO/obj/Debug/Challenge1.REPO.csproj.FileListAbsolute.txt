@@ -1,2 +1,11 @@
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.csproj.AssemblyReference.cache
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\GoldBadgeFinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.csproj.CoreCompileInputs.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.csproj.AssemblyReference.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.csproj.CoreCompileInputs.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\bin\Debug\Challenge1.REPO.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\bin\Debug\Challenge1.REPO.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\bin\Debug\Challenge1.POCO.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\bin\Debug\Challenge1.POCO.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\bin\Debug\Challenge1.POCO.dll.config
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.pdb

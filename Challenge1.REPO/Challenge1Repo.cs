@@ -4,76 +4,87 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Challenge1.POCO;
+
 
 
 namespace Challenge1.REPO
 {
     public class Challenge1Repo
     {
-      
-        Meal[] MenuItems = {
-            new Meal("Chicken Sandwhich",5.99),
-            new Meal("Club Sandwhich",2.99),
-            new Meal("Pork Sandwhich",8.99),
-            new Meal("Beef Sandwhich",7.99),
-            };
-        private readonly Dictionary<int, Meal> _NewItem = new Dictionary<int, Meal>();
-        private int _count = 0;
+
        
-        //create new menu items
-        public bool CreateItem(Meal meal){
-            if (meal == null)
-            {
-                return false;
-            }
-            else 
-            {
-                _count++;
-                meal.MealNumber = _count;
-                _NewItem.Add(meal.MealNumber, meal);
-                return true;
-            }
-            }
-        // read all items presented
-        public Dictionary<int,Meal> GetItems()
-        {
-            return _NewItem;
-        }
-        // read one item
-        public Dictionary<int, Meal> GetItemsByMealNumber(int VisableMealNumber)
-        {
-            foreach (Meal meal in _NewItem)
-            {
-                if (VisableMealNumber == meal.MealNumber)
-                {
-                    return _NewItem;
-                }
-                else return null;
-            }
-        }
+           
+          
+        public readonly Dictionary<int, Meal> _NewItem = new Dictionary<int, Meal>();
 
-        //update items
+    private int _count = 0;
 
-        //Delete Items
-        public bool DeleteItem(int VisiableMealNumber)
+    //create new menu items
+    public bool CreateItem(Meal meal)
+    {
+        if (meal == null)
         {
-            Meal MealDelete = GetItemsByMealNumber(  VisiableMealNumber);
-            if ( MealDelete == null)
+            return false;
+        }
+        else
+        {
+            _count++;
+            meal.MealNumber = _count;
+            _NewItem.Add(meal.MealNumber, meal);
+            return true;
+        }
+    }
+    // read all items presented
+    public Dictionary<int, Meal> GetItems()
+    {
+        return _NewItem;
+    }
+    // read one item
+
+    public Meal GetItemsByMealNumber(int mealNumber)
+    {
+
+        foreach (KeyValuePair<int, Meal> meal in _NewItem)
+        {
+            if (meal.Key == mealNumber)
             {
-                return false;
+                return meal.Value;
             }
-            else
+            else if (meal.Key != mealNumber)
             {
-                _NewItem.Remove( MealDelete);
-                return true;
+
+                return null;
             }
         }
+        return null;
+    }
 
+    //update items
+    public bool UpdatePlayer(int mealNumber, Meal NewMealInfo)
+    {
+        Meal OldMealInfo = GetItemsByMealNumber(mealNumber);
+        if (OldMealInfo != NewMealInfo)
+        {
+            OldMealInfo.MealName = NewMealInfo.MealName;
+            OldMealInfo.MealPrice = NewMealInfo.MealPrice;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 
+    //Delete Items
 
-
+    public bool DeleteItem(int mealNumber)
+    {
+        bool wasDeleted = _NewItem.Remove(mealNumber);
+        return wasDeleted;
+    }
 }
+}
+
 
 
 
