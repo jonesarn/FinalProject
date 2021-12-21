@@ -12,15 +12,13 @@ namespace Challenge1.POCO
         public string MealName { get; set; }
         public string MealDescription { get; set; }
         public string MealIngredience { get; set; }
-        public Double MealPrice { get; set; }
+        public double MealPrice { get; set; }
 
-        public Meal( string mealName, Double mealPrice)
+        public Meal( string mealName, double mealPrice)
         {
            
             this.MealName = mealName;
             this.MealPrice = mealPrice;
         }
     }
-    
-   
 }

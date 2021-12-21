@@ -1,0 +1,14 @@
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Challenge1.UT.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Challenge1.UT.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\obj\Debug\Challenge1.UT.csproj.AssemblyReference.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\obj\Debug\Challenge1.UT.csproj.CoreCompileInputs.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\obj\Debug\Challenge1.UT.csproj.CopyComplete
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\obj\Debug\Challenge1.UT.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.UT\obj\Debug\Challenge1.UT.pdb
