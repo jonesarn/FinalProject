@@ -65,7 +65,14 @@ namespace ChallengeTwo_UI
         {
             // delete claim
             Console.Clear();
-            
+            Console.WriteLine("Do you want to see the next claim?(y/n)");
+            string answer = Console.ReadLine();
+            if(answer == "y"| answer == "Y")
+            {
+               
+                
+            }
+           
         }
         private void makeClaim()
         {
