@@ -9,4 +9,3 @@ C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\bin\Debug\Challenge1.POCO.dll.config
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.dll
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.pdb
-C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge1.REPO\obj\Debug\Challenge1.REPO.csproj.CopyComplete

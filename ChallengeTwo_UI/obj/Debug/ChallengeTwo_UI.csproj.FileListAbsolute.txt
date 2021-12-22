@@ -5,3 +5,8 @@ C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTw
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\obj\Debug\ChallengeTwo_UI.csproj.CoreCompileInputs.cache
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\obj\Debug\ChallengeTwo_UI.exe
 C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\obj\Debug\ChallengeTwo_UI.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\bin\Debug\Challenge2_Poco.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\bin\Debug\ChallengeTwo_Repo.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\bin\Debug\Challenge2_Poco.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\bin\Debug\ChallengeTwo_Repo.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\ChallengeTwo_UI\obj\Debug\ChallengeTwo_UI.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge2_Poco\bin\Debug\Challenge2_Poco.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge2_Poco\bin\Debug\Challenge2_Poco.pdb
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge2_Poco\obj\Debug\Challenge2_Poco.csproj.AssemblyReference.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge2_Poco\obj\Debug\Challenge2_Poco.csproj.CoreCompileInputs.cache
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge2_Poco\obj\Debug\Challenge2_Poco.dll
+C:\Users\Armond\Desktop\Eleven Fifty Projects\GoldBadge\FinalProject\Challenge2_Poco\obj\Debug\Challenge2_Poco.pdb
