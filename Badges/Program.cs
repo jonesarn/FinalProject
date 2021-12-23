@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Badges
 {
-    class Program
+    class program
     {
         static void Main(string[] args)
         {
+            ProgramUi UI = new ProgramUi();
+            UI.run();
         }
     }
 }

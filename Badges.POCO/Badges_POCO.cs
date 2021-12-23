@@ -8,15 +8,15 @@ namespace Badges.POCO
 {
     public class Badges_POCO
     {
-        public int BadgeId { get; set; }
-        public string ListBadgeNames { get; set; }
+        public string BadgeId { get; set; }
+        public string ListOfDoorNames { get; set; }
         public string NameForBadge { get; set; }
 
-        public Badges_POCO(int badgeId, string listBadgeNames, string nameForBadges)
+        public Badges_POCO(string badgeId, string listOfDoorNames,)
         {
             this.BadgeId = badgeId;
-            this.ListBadgeNames = listBadgeNames;
-            this.NameForBadge = nameForBadges;
+            this.ListOfDoorNames = listOfDoorNames;
+          
         }
     }
   

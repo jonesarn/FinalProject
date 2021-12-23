@@ -9,17 +9,62 @@ namespace Badges.REPO
 {
     public class Badge_REPO
     {
+        //Holds doors and Badges
+        public readonly Dictionary<string, List<Badges_POCO>> _BadgeAvailableDoors = new Dictionary<string, List<Badges_POCO>>();
 
-        Dictionary<string, List<Badges_POCO>> _DoorsAndBadges = new Dictionary<string, List<Badges_POCO>>();
-        
-        //Create
-        public bool CreateBadgeId(Badges_POCO badges)
+
+        //Create Badges
+        public bool CreateBadge(Badges_POCO badges_)
         {
-            if (badges != null)
+            if (badges_ != null)
             {
-                _count++;
-                badges.BadgeId = _count;
-                _BadgeRepoInfo.Add(badges.BadgeId, badges);
+                
+                _BadgeAvailableDoors.Add(badges_.BadgeId, Badges_POCO);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+
+
+        //read
+        public Dictionary<string, Badges_POCO> ReadData()
+        {
+            return _BadgeAvailableDoors;
+        }
+
+        //Read All
+        public Badges_POCO ReadOneData(string doors)
+        {
+            foreach (KeyValuePair<string, Badges_POCO> door_  in _DoorsAndBadges)
+            {
+                if (door_.Key == doors)
+                {
+                    return door_.Value;
+                }
+                else if (door_.Key != doors)
+                {
+                    return null;
+                }
+               
+            }
+            return null;
+        }
+
+        //Update
+
+        public bool UpdateData(string door, Badges_POCO NewBadgeInfo)
+        {
+            Badges_POCO OlddBadgeInfo = ReadOneData(door);
+            if (OlddBadgeInfo != NewBadgeInfo)
+            {
+                OlddBadgeInfo.BadgeId = NewBadgeInfo.BadgeId;
+                OlddBadgeInfo.ListOfDoorNames = NewBadgeInfo.ListOfDoorNames;
+                OlddBadgeInfo.NameForBadge = NewBadgeInfo.NameForBadge;
                 return true;
             }
             else
@@ -27,24 +72,18 @@ namespace Badges.REPO
                 return false;
             }
         }
-        public bool CreateDoors(Badges_POCO doors)
-        {
-            if(doors == null)
-            {
-                return false;
-            }
-            else
-            {
-                doors.
-            }
-        }
-        //read
-        //Update
+
         //delete
-
-    }
-
-    internal class Dictionary<T1, T2, T3>
-    {
+        public bool DeleteItem(string Badge)
+        {
+            bool wasDeleted = _DoorsAndBadges.Remove(Badge);
+            return wasDeleted;
+        }
     }
 }
+
+
+
+
+  
+
