@@ -1,9 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Challenge1.POCO;
-using Challenge1.REPO;
-
-namespace Challenge1.UT
+using Badges.REPO;
+using Badges.POCO;
+namespace Badges
 {
     [TestClass]
     public class TestChallengeMethods
@@ -20,13 +19,3 @@ namespace Challenge1.UT
             //assert
                 Assert.AreEqual(true,result);
         }
-        public void TestReadMethod(){
-            //arrange
-                
-            //act
-
-            //assert
-            
-        }
-    }
-}
