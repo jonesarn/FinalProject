@@ -26,7 +26,19 @@ namespace ChalengeTwo.UT{
             result.Assert(true,result_isValid);
             
         }
+        [TestMethod]
+        public void isClaimDeleted()
+        {
+            //arrange
+            DeleteClaim testDeleteClaim = new testDeleteClaim();
+            Boolean result_delete;
 
+            //assert
+            result_delete = testDeleteClaim.DeleteClaim(ClaimPoco claim);
+
+            //act
+            result_delete.Assert(true,result_delete);
+        }
     }
 
 }
