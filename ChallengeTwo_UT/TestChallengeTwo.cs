@@ -18,7 +18,7 @@ namespace ChalengeTwo.UT{
         {
             //arrange
             IsValid testIsValid = new testIsValid();
-
+            Boolean result_isValid;
             //assert
             result_isValid = testIsValid.IsValid();
 
