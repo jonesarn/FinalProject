@@ -20,13 +20,19 @@ namespace Challenge1.UT
             //assert
                 Assert.AreEqual(true,result);
         }
-        public void TestReadMethod(){
+        //See if all items are read in the dictionary
+        public void TestItemByMealNumber(){
             //arrange
-                
+                GetItemsByMealNumber CreateItemMealNumber = new GetItemsByMealNumber();
             //act
+                result_MealNumber = CreateItemMealNumber.GetItemsByMealNumber(int mealNumber);
 
             //assert
-            
+                Assert.AreEqual(meal.Key,mealNumber);
         }
+       public void TestDelete(){
+           //arrange
+           
+       } 
     }
 }
