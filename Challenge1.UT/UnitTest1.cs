@@ -32,6 +32,14 @@ namespace Challenge1.UT
         }
        public void TestDelete(){
            //arrange
+           DeleteItem ItemDeleted = new DeleteItem();
+           Boolean result_Delete;
+
+           //act
+           result_Delete = ItemDeleted.DeleteItem();
+
+           //assert
+           Assert.AreEqual(true,result_Delete)
            
        } 
     }
