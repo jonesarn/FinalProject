@@ -21,6 +21,7 @@ namespace Challenge1.UT
                 Assert.AreEqual(true,result);
         }
         //See if all items are read in the dictionary
+        [TestMethod]
         public void TestItemByMealNumber(){
             //arrange
                 GetItemsByMealNumber CreateItemMealNumber = new GetItemsByMealNumber();
@@ -30,6 +31,7 @@ namespace Challenge1.UT
             //assert
                 Assert.AreEqual(meal.Key,mealNumber);
         }
+        [TestMethod]
        public void TestDelete(){
            //arrange
            DeleteItem ItemDeleted = new DeleteItem();
