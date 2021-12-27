@@ -60,7 +60,9 @@ namespace Badges
                     string ListOfDoorNames = Console.ReadLine();
                 } 
                     
-            } while (answer == "n");
+            } while (answer == "no"){
+                break;
+            }
         }
         private void UpdateBadge()
         {
@@ -68,7 +70,10 @@ namespace Badges
         }
         private void ListAllBadges()
         {
-
+            Console.WriteLine("List who has access to who")
+            foreach(KeyValuePair<string, Badges_POCO> door_  in _DoorsAndBadges){
+                Console.WriteLine(door_);
+            }
         }
     }
 }
