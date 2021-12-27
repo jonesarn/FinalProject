@@ -13,7 +13,19 @@ namespace ChalengeTwo.UT{
         //act
             result.Assert(true);
         }
-        
+        [TestClass]
+        public void IsValidActive()
+        {
+            //arrange
+            IsValid testIsValid = new testIsValid();
+
+            //assert
+            result_isValid = testIsValid.IsValid();
+
+            //act
+            result.Assert(true,result_isValid);
+            
+        }
 
     }
 
